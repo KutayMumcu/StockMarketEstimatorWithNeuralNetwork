@@ -18,7 +18,7 @@ def calculate_rsi(data, window=14):
 # 2. DATA LOADING AND INDICATORS
 # ==========================================
 print("--- DYNAMIC RETURN PREDICTION SYSTEM (SMART RETURN PREDICTION) ---")
-FILE_PATH = 'data.xlsx'  # Enter file name here
+FILE_PATH = 'ASTOR_data.xlsx'  # Enter file name here
 
 try:
     df_full = pd.read_excel(FILE_PATH)
